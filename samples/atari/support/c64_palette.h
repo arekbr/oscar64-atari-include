@@ -1,0 +1,14 @@
+#ifndef ATARI_SAMPLE_C64_PALETTE_H
+#define ATARI_SAMPLE_C64_PALETTE_H
+
+#include <atari/colors.h>
+
+// Palette entries follow the color order of the C64 sample.
+static const byte palette[16] = {
+	COLOR_BLACK, COLOR_WHITE, COLOR_RED, COLOR_CYAN,
+	COLOR_PURPLE, COLOR_GREEN, COLOR_BLUE, COLOR_YELLOW,
+	ATARI_COLOR(2, 10), COLOR_BROWN, COLOR_LIGHTRED, COLOR_GRAY1,
+	COLOR_GRAY2, COLOR_LIGHTGREEN, COLOR_LIGHTBLUE, COLOR_GRAY3
+};
+
+#endif
